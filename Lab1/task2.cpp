@@ -44,6 +44,6 @@ int main()
     for(int i=0; i<uniq.size(); i++)
     {
         int hashValue = hashFunctionKey(radix, tokens[i]);
-        cout << uniq[i] << ' ' << value[hashValue] << endl;
+        cout << tokens[i] << ' ' << value[hashValue] << endl;
     }
 }
